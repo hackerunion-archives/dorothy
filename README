@@ -64,7 +64,7 @@ Step 2:
 In /var/apps/wiki, update the working copy with:
 $ git reset HEAD (I think this is the right command)
 
-Another possible workflow is to simply commit your changes localy (in ~/blog) and
+Another possible workflow is to simply commit your changes locally (in ~/blog) and
 pull from /var/apps/blog:
 
 ~/blog$ git commit -m "..."
@@ -78,7 +78,7 @@ pull from /var/apps/blog:
 * Avoid working directly in /var/apps/blog.  Doing so will make your 
   works-in-progress visible to the world
 * Avoid creating the files in articles/ by hand.  Use "rake new" if possible. 
-* Currenly only wheel has the ability to modify the /var/apps/blog wiki.  If a 
+* Currently only wheel has the ability to modify the /var/apps/blog wiki.  If a 
   non-root hacker wants to author a blog post, then can:
   1. clone the repo
   2. author an article
