@@ -1,4 +1,69 @@
-dorothy
-=======
+NYHacker blog
 
-A wonderful template for [toto](http://cloudhead.io/toto), the blogging engine.
+PLEASE UPDATE THIS FILE IS SOMETHING IS MISSING OR INCORRECT
+
+Recommended workflow:
+
+1. Clone the blog repo:
+-----------------------
+
+$ cd ~
+$ git clone /var/apps/blog blog
+
+
+2. Author a new article:
+------------------------
+
+$ rake new
+(in /home/achin/blog)
+Title: My New Post!   
+
+  toto ~ an article was created for you at articles/2011-02-08-my-new-post.txt.
+
+
+Edit the new article template.  A regular git-like workflow applies here.  For
+example:
+ * git diff to see what you've written.
+ * git commit to commit your new article.  Note it's not published yet.
+ * Ask friend to git pull into a new branch to proof-read.
+ * Friend fixes a few typos and commits the change.
+ * You pull changes back in to your repo and review.
+
+2.5 Edit an existing article:
+-----------------------------
+
+If you just want to edit an existing article, you can do that as well.  Simply
+edit the file in question and commit your changes.
+
+3. Publish repo:
+---------------
+
+Push to publish: a two-step process
+
+Step 1:
+$ git push origin master
+
+Step 2:
+In /var/apps/wiki, update the working copy with:
+$ git reset HEAD (I think this is the right command)
+
+Another possible workflow is to simply commit your changes localy (in ~/blog) and
+pull from /var/apps/blog:
+
+~/blog$ git commit -m "..."
+~/blog$ cd /var/apps/blog
+/var/apps/blog$ git pull /home/achin/blog
+
+
+4. Misc:
+--------
+
+* Avoid working directly in /var/apps/blog.  Doing so will make your 
+  works-in-progress visible to the world
+* Avoid creating the files in articles/ by hand.  Use "rake new" if possible. 
+* Currenly only wheel has the ability to modify the /var/apps/blog wiki.  If a 
+  non-root hacker wants to author a blog post, then can:
+  1. clone the repo
+  2. author an article
+  3. commit it
+  4. ask a member of root to review and publish
