@@ -35,7 +35,24 @@ example:
 If you just want to edit an existing article, you can do that as well.  Simply
 edit the file in question and commit your changes.
 
-3. Publish repo:
+3. Previewing (optional)
+------------------------
+
+If you want to preview your changes in a browser (for example, to make sure you
+got the formatting correct), you can start up a local server with any Rack compliant
+web server.  Some examples:
+
+$ thin start -R config.ru
+
+or:
+
+$ unicorn
+
+Note: there is currently a problem where local servers don't have the correct URLs for links
+and stylesheets.  We'll fix that.
+
+
+4. Publish repo:
 ---------------
 
 Push to publish: a two-step process
@@ -55,7 +72,7 @@ pull from /var/apps/blog:
 /var/apps/blog$ git pull /home/achin/blog
 
 
-4. Misc:
+5. Misc:
 --------
 
 * Avoid working directly in /var/apps/blog.  Doing so will make your 
