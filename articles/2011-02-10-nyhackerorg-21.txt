@@ -10,9 +10,10 @@ We hope to use the [blog](http://blog.nyhacker.org/) to talk about our events, h
 
 As for the [wiki](http://wiki.nyhacker.org/), please make appropriate contributions as often as you like and about whatever hacker topics you like! Collaborate, explain, annotate, wikify.
 
-Tech details: Both the blog and wiki are git-powered. The blog uses toto and the wiki uses gollum. Having git-based tools seemed hacker-appropriate and fit well into our current architecture.
+Tech details: Both the blog and wiki are git-powered. The blog uses [toto](https://github.com/cloudhead/toto) and the wiki uses [gollum](https://github.com/github/gollum). Having git-based tools seemed hacker-appropriate and fit well into our current architecture. You can check out our forks at [nyhacker's github](https://github.com/nyhacker).
 
 Hope you enjoy, please feel free to send any feedback or comments to [hacker@lists.nyhacker.org](mailto:hacker@lists.nyhacker.org)
 
 -[Jon Gottfried](mailto:jonmarkgo@nyhacker.org) & nyhacker root
+
 This post written on 100% recycled bytes.
