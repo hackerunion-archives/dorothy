@@ -1,0 +1,17 @@
+--- 
+title: nyhacker.org 2.1
+date: 10/02/2011
+
+Hey Hackers,
+Arbitrary version numbers aside, today we are launching two brand new portions of nyhacker.org - a blog and a wiki. These new resources will help us better communicate among ourselves and to the outside world.
+
+We hope to use the [blog](http://blog.nyhacker.org/) to talk about our events, highlight some awesome projects from the community, and let people know about interesting opportunities and resources for ny hackers.
+
+As for the [wiki](http://wiki.nyhacker.org/), please make appropriate contributions as often as you like and about whatever hacker topics you like! Collaborate, explain, annotate, wikify.
+
+Tech details: Both the blog and wiki are git-powered. The blog uses toto and the wiki uses gollum. Having git-based tools seemed hacker-appropriate and fit well into our current architecture.
+
+Hope you enjoy, please feel free to send any feedback or comments to [hacker@lists.nyhacker.org](mailto:hacker@lists.nyhacker.org)
+
+-[Jon Gottfried](mailto:jonmarkgo@nyhacker.org) & nyhacker root
+This post written on 100% recycled bytes.
