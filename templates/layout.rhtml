@@ -30,6 +30,7 @@ PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN"
             <a href="http://nyhacker.org/mission.php">mission</a> |
             <a href="http://nyhacker.org/hackers.php">directory</a> |
             <a href="http://blog.nyhacker.org/">blog</a> |
+            <a href="http://wiki.nyhacker.org">wiki</a> |
             <%= `who | cut -f1 -d' ' | sort | uniq | wc -w` %> / <%= `cat /etc/passwd | wc -l`.to_i - 31 %> online
           </div>
 <div class="console">
