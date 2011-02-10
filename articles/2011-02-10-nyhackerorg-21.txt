@@ -3,7 +3,8 @@ title: nyhacker.org 2.1
 date: 10/02/2011
 
 Hey Hackers,
-Arbitrary version numbers aside, today we are launching two brand new portions of nyhacker.org - a blog and a wiki. These new resources will help us better communicate among ourselves and to the outside world.
+
+Arbitrary version numbers aside, today we are launching two brand new portions of nyhacker.org - a [blog](http://blog.nyhacker.org/) and a [wiki](http://wiki.nyhacker.org/). These new resources will help us better communicate among ourselves and to the outside world.
 
 We hope to use the [blog](http://blog.nyhacker.org/) to talk about our events, highlight some awesome projects from the community, and let people know about interesting opportunities and resources for ny hackers.
 
