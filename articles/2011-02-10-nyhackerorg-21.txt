@@ -12,7 +12,7 @@ As for the [wiki](http://wiki.nyhacker.org/), please make appropriate contributi
 
 Tech details: Both the blog and wiki are git-powered. The blog uses [toto](https://github.com/cloudhead/toto) and the wiki uses [gollum](https://github.com/github/gollum). Having git-based tools seemed hacker-appropriate and fit well into our current architecture. You can check out our forks at [nyhacker's github](https://github.com/nyhacker).
 
-Hope you enjoy, please feel free to send any feedback or comments to [hacker@lists.nyhacker.org](mailto:hacker@lists.nyhacker.org)
+Hope you enjoy, please feel free to send any feedback or comments to me at [jonmarkgo@nyhacker.org](mailto:jonmarkgo@nyhacker.org)
 
 -[Jon Gottfried](mailto:jonmarkgo@nyhacker.org) & nyhacker root
 
