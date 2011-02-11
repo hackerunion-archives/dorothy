@@ -8,7 +8,7 @@ Recommended workflow:
 -----------------------
 
 $ cd ~
-$ git clone /var/apps/blog blog
+$ git clone git@github.com:nyhacker/dorothy.git blog
 
 
 2. Author a new article:
@@ -48,28 +48,21 @@ or:
 
 $ unicorn
 
-Note: there is currently a problem where local servers don't have the correct URLs for links
-and stylesheets.  We'll fix that.
 
-
-4. Publish repo:
+4. Push changes:
 ---------------
 
-Push to publish: a two-step process
+This pushes the changes to our github fork:
 
-Step 1:
 $ git push origin master
 
-Step 2:
-In /var/apps/wiki, update the working copy with:
-$ git reset HEAD (I think this is the right command)
+(or if you have another remote, replace 'origin' with your remote name)
 
-Another possible workflow is to simply commit your changes locally (in ~/blog) and
-pull from /var/apps/blog:
+5. Publish:
+-----------
 
-~/blog$ git commit -m "..."
-~/blog$ cd /var/apps/blog
-/var/apps/blog$ git pull /home/achin/blog
+In /var/apps/blog, pull in the latest version from github:
+$ $ git pull github master
 
 
 5. Misc:
@@ -78,7 +71,7 @@ pull from /var/apps/blog:
 * Avoid working directly in /var/apps/blog.  Doing so will make your 
   works-in-progress visible to the world
 * Avoid creating the files in articles/ by hand.  Use "rake new" if possible. 
-* Currently only wheel has the ability to modify the /var/apps/blog wiki.  If a 
+* Currently only wheel has the ability to modify the /var/apps/blog dir.  If a 
   non-root hacker wants to author a blog post, then can:
   1. clone the repo
   2. author an article
