@@ -1,6 +1,6 @@
 --- 
-title: Lemonade Stand at NYTM - April Hack of the Month
-date: 04/11/2011
+title: Lemonade Stand at NYTM - April 2011 Hack of the Month
+date: 11/04/2011
 
 Last Wednesday, <a href="http://lmnd.st/">Lemonade Stand</a> went on stage at the April 2011 <a href="http://nytm.org/">New York Tech Meetup</a> to present our <a href="http://startupbus.com">StartupBus</a> project for the <a href="http://nyhacker.org">nyhacker</a> Hack of the Month segment.
 
