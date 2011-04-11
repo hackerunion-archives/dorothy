@@ -1,0 +1,20 @@
+--- 
+title: Lemonade Stand at NYTM - April Hack of the Month
+date: 04/11/2011
+
+Last Wednesday, <a href="http://lmnd.st/">Lemonade Stand</a> went on stage at the April 2011 <a href="http://nytm.org/">New York Tech Meetup</a> to present our <a href="http://startupbus.com">StartupBus</a> project for the <a href="http://nyhacker.org">nyhacker</a> Hack of the Month segment.
+
+But enough with all of the links...Lemonade Stand was chosen for Hack of the Month because of the insanity of the conditions it was developed under. For those of you who don’t know much about it, the Startup Bus is a hackathon on a bus. But really, its much more than that. Its a community, its a competition, its a boot camp, and I could go on for quite a while. Its an experience unlike anything I’ve ever done before, and cannot be compared to a mere hackathon. We were stuck on a cramped, smelly, and sleepless bus ride for 60 hours, travelling far above the speed limit from New York City to Austin for SXSW. The internet connection was shoddy, I realized how difficult it is to code on a vibrating laptop, and the hotels we stopped at each night provided a solid WiFi connection rather than a comfortable place to sleep (or shower).
+
+On Day 1 of the bus trip, we pitched our ideas and formed teams organically around them. The New York bus ended up with 6 solid teams, of which Lemonade Stand was the largest (7 members out of ~30 people on the bus). Over the following 3 days, we built an awesome product and friendships that will last for many years. That is what the Startup Bus is about, more than “winning”, more than hacking, and more than the crazy conditions. The Startup Bus is a community, and an inherently strong one as it can be very difficult not to bond with people you are stuck with in such close quarters for such an experience.
+
+Hack of the Month is really about highlighting interesting hacks and hackers. Our scrappy bunch, including <a href="http://twitter.com/jonmarkgo">myself</a>, <a href="http://twitter.com/davidykay">David Kay</a>, and <a href="http://twitter.com/kennedysgarage">Chris Kennedy</a> presented Lemonade Stand to show what hackers can accomplish in a short period of time and under insane conditions. We went up on stage and in a brief 3 minute presentation, showed the NY tech scene our beta Android app and our completely open API (with live hacking!) that are aimed to take the mobile commerce world by storm.
+
+Check out Brandon's Lemon Party:
+<object width="640" height="390"><param name="movie" value="http://www.youtube.com/v/DC-AiiclmV0?fs=1&amp;hl=en_US"></param><param name="allowFullScreen" value="true"></param><param name="allowscriptaccess" value="always"></param><embed src="http://www.youtube.com/v/DC-AiiclmV0?fs=1&amp;hl=en_US" type="application/x-shockwave-flash" allowscriptaccess="always" allowfullscreen="true" width="640" height="390"></embed></object>
+
+Thanks to nyhacker and Brandon for hosting us at NYTM!
+
+-[Jon Gottfried](mailto:jonmarkgo@nyhacker.org) & nyhacker root
+
+This post written on 100% recycled bytes.
